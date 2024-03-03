@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+<identifier>
+	<identifier identifierType="DOI">10.5281/zenodo.7669442</identifier>
+</identifier>
+<titles>
+	<title xml:lang="en">Regensburg Pediatric Appendicitis Dataset</title>
+</titles>
+<creators>
+	<creator>
+		<creatorName nameType="Personal">Marcinkevičs et al.</creatorName>
+		<givenName>Ričards</givenName>
+		<familyName>Marcinkevičs</familyName>
+		<nameIdentifier nameIdentifierScheme="ORCID">https://orcid.org/0000-0001-8901-5062</nameIdentifier>
+		<affiliation xml:lang="ch">ETH Zurich</affiliation>
+	</creator>
+</creators>
+<publisher xml:lang="de">zenodo.org</publisher>
+<publicationYear>2023</publicationYear>
+<resourceType resourceTypeGeneral="Collection"></resourceType>
+<descriptions>
+	<description xml:lang="en" descriptionType="Abstract">This dataset was acquired in a retrospective study from a cohort of pediatric patients admitted with abdominal pain to Children’s Hospital St. Hedwig in Regensburg, Germany. Multiple abdominal B-mode ultrasound images were acquired for most patients, with the number of views varying from 1 to 15. The images depict various regions of interest, such as the abdomen’s right lower quadrant, appendix, intestines, lymph nodes and reproductive organs. Alongside multiple US images for each subject, the dataset includes information encompassing laboratory tests, physical examination results, clinical scores, such as Alvarado and pediatric appendicitis scores, and expert-produced ultrasonographic findings. Lastly, the subjects were labeled w.r.t. three target variables: diagnosis (appendicitis vs. no appendicitis), management (surgical vs. conservative) and severity (complicated vs. uncomplicated or no appendicitis). The study was approved by the Ethics Committee of the University of Regensburg (no. 18-1063-101, 18-1063_1-101 and 18-1063_2-101) and was performed following applicable guidelines and regulations.</description>
+</descriptions>
+<subjects>
+	<subject subjectScheme="wikidata">Pediatric Appendicitis</subject>
+</subjects>
+<contributors>
+	<contributor contributorType="Researcher">
+		<contributorName>Marcinkevičs et al.</contributorName>
+		<givenName>Ričards</givenName>
+		<familyName>Marcinkevičs</familyName>
+		<nameIdentifier nameIdentifierScheme="ORCID">https://orcid.org/0000-0001-8901-5062</nameIdentifier>
+		<affiliation xml:lang="ch">ETH Zurich</affiliation>
+	</contributor>
+</contributors>
+<dates>
+	<date dateType="Updated">2023</date>
+</dates>
+<relatedIdentifiers>
+	<relatedIdentifier relatedIdentifierType="URL" relationType="IsDescribedBy">https://zenodo.org/records/7711412</relatedIdentifier>
+</relatedIdentifiers>
+<geoLocations>
+	<geoLocation>
+		<geoLocationPlace>Regensburg</geoLocationPlace>
+	</geoLocation>
+</geoLocations>
+<language>en</language>
+<sizes>
+	<size>523.3 MB</size>
+</sizes>
+<formats>
+	<format>xlsx</format>
+	<format>csv</format>
+	<format>zip</format>
+	<format>md</format>
+</formats>
+<version>1.03</version>
+<rightsList>
+	<rights xml:lang="en" schemeURI="https://creativecommons.org/licenses/by-nc/4.0/deed.en">Creative Commons Attribution Non Commercial 4.0 International</rights>
+</rightsList>
+<relatedItems>
+	<relatedItem relationType="IsReferencedBy">
+		<relatedItemIdentifier>arXiv:2302.14460</relatedItemIdentifier>
+		<titles>
+			<title xml:lang="en">Interpretable and intervenable ultrasonography-based machine learning models for pediatric appendicitis</title>
+		</titles>
+		<publicationYear>2023</publicationYear>
+		<volume>91</volume>
+		<issue>103042</issue>
+		<publisher>Elsevier B.V.</publisher>
+	</relatedItem>
+</relatedItems>
+</resource>
